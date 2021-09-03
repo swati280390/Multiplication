@@ -1,0 +1,9 @@
+# multiplication of 2 nos
+
+num1 = int(input("Enter a number: "))
+
+count = 1
+while count <=10:
+    product = num1 * count
+    print(num1, '*', count, '=', product)
+    count =count +1
